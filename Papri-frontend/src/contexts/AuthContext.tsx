@@ -148,9 +148,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
                 { sender: 'ai', text: "I see you're ready to launch! Let's find the perfect plan for you." }
             ],
             interactiveOptions: [
-                { text: "One-Time ($50)", payload: { plan: 'ONETIME' } },
-                { text: "Monthly ($15/mo)", payload: { plan: 'MONTHLY' } },
-                { text: "Yearly ($150/yr)", payload: { plan: 'YEARLY' } },
+                { text: "One-Time ($47)", payload: { plan: 'ONETIME' } },
+                { text: "Monthly ($24.99/mo)", payload: { plan: 'MONTHLY' } },
+                { text: "Yearly ($199/yr)", payload: { plan: 'YEARLY' } },
             ]
         });
         setPaymentModalOpen(true);
