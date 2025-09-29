@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
             <div className="container mx-auto py-8 px-4 lg:px-6">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                     <div>
-                        <h3 className="font-semibold text-gray-800 mb-3">Applaude</h3>
+                        <h3 className="font-semibold text-gray-800 mb-3">Papri</h3>
                         <p className="text-gray-600 text-sm">{t('tagline')}</p>
                     </div>
                     <div>
