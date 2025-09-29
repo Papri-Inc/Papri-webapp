@@ -10,7 +10,7 @@ const UpgradeSubscriptionPage = () => {
   return (
     <div className="min-h-screen bg-quantum-black text-soft-white p-8 flex flex-col items-center justify-center">
       <h1 className="text-4xl font-bold mb-4">Upgrade Your Subscription</h1>
-      <p className="text-lg text-gray-400 mb-12 text-center">Unlock the full potential of Applause with a recurring subscription.</p>
+      <p className="text-lg text-gray-400 mb-12 text-center">Unlock the full potential of Papri with a recurring subscription.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl w-full">
         {plans.map(plan => (
           <Card key={plan.name} className="p-8 text-center flex flex-col">
