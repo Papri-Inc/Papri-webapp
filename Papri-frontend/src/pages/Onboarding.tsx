@@ -3,7 +3,7 @@ import { Send } from 'lucide-react';
 
 const Onboarding = () => {
   const [messages, setMessages] = useState([
-    { text: "Hello! I'm Applause, your AI customer care. To get started, what is the URL of your existing website?", sender: 'ai' },
+    { text: "Hello! I'm Papri, your AI customer care. To get started, what is your business website URL?", sender: 'ai' },
   ]);
   const [inputValue, setInputValue] = useState('');
   const [currentStep, setCurrentStep] = useState(0);
@@ -39,7 +39,7 @@ const Onboarding = () => {
       <div className="w-full max-w-2xl bg-black bg-opacity-20 backdrop-blur-xl rounded-2xl shadow-2xl border border-white border-opacity-10 overflow-hidden">
         <div className="p-6">
           <div className="flex items-center mb-6">
-            <img src="/profile-icon.png" alt="Applause" className="w-12 h-12 rounded-full mr-4"/>
+            <img src="/profile-icon.png" alt="Papri" className="w-12 h-12 rounded-full mr-4"/>
             <div>
               <h1 className="text-2xl font-bold text-soft-white">Applause</h1>
               <p className="text-ion-blue text-sm">AI Co-Founder</p>
