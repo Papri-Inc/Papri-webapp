@@ -1,23 +1,18 @@
 // import React from "react";
-import tsionImage from "@/assets/images/tsion_tamirat.jpg";
+import lauraImage from "@/assets/images/laura_nyaaga.jpg";
 import mugambiImage from "@/assets/images/mugambi_john_ndeke.jpg";
 
 const AboutUs = () => {
   const team = [
     {
-      name: "Tsion Tamirat",
-      image: tsionImage,
-      role: "Co-Founder & Vision Lead",
-    },
-    {
       name: "Mugambi Ndoke",
       image: mugambiImage,
-      role: "Co-Founder & Strategy Lead",
+      role: "Co-Founder & Team Lead",
     },
     {
       name: "Laura Nyaga",
-      image: "https://picsum.photos/300/500?random=8",
-      role: "Co-Founder & Operations",
+      image: "lauraImage",
+      role: "Co-Founder & CTO",
     },
   ];
 
