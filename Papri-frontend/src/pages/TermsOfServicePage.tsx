@@ -4,7 +4,7 @@ const TermsOfServicePage = () => {
     return (
         <div className="bg-white">
             <main className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8 prose lg:prose-xl">
-                <h1>Terms of Service for Applaude</h1>
+                <h1>Papri Terms of Service</h1>
                 <p><strong>Last Updated:</strong> July 16, 2025</p>
 
                 <h2>1. Agreement to Terms</h2>
@@ -35,7 +35,7 @@ const TermsOfServicePage = () => {
                 <p>We may modify the Terms at any time. If we do so, we’ll let you know either by posting the modified Terms on the site or through other communications.</p>
 
                 <h2>10. Contact Us</h2>
-                <p>If you have any questions about these Terms, please contact us at: <a href="mailto:legal@applaude.ai">legal@applaude.ai</a></p>
+                <p>If you have any questions about these Terms, please contact us at: <a href="mailto:legal@papri.cloud">legal@papri.cloud</a></p>
             </main>
         </div>
     );
