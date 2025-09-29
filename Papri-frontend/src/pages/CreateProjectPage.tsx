@@ -277,7 +277,7 @@ const CreateProjectPage: React.FC<ChatUIProps> = ({ firstName }) => {
         // Handle regular chat messages
         setMessages((prev) => [...prev, {
           text: data.message,
-          sender: data.sender === 'Applaude Prime' ? 'bot' : data.sender === 'system' ? 'system' : 'bot'
+          sender: data.sender === 'Papri' ? 'bot' : data.sender === 'system' ? 'system' : 'bot'
         }]);
       }
       setLoading(false);
@@ -465,7 +465,7 @@ const CreateProjectPage: React.FC<ChatUIProps> = ({ firstName }) => {
       <div className="bg-purple-700 w-1/3 flex flex-col items-center justify-center text-white p-6">
         <div className="flex items-center mb-6">
           <img src="/logo_icon.png" alt="Logo" className="w-8 h-8 mr-2" />
-          <span className="font-bold text-lg">Applaude</span>
+          <span className="font-bold text-lg">Papri</span>
         </div>
         <div className="relative w-56 h-[450px] rounded-[40px] border-8 border-black bg-black flex flex-col items-center justify-center">
           <div className="absolute top-2 left-1/2 -translate-x-1/2 w-20 h-4 bg-black rounded-b-lg"></div>
