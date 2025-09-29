@@ -26,7 +26,7 @@ export const DeploymentModal: React.FC<DeploymentModalProps> = ({ isOpen, onClos
                     </button>
                     <button onClick={onDeployClick} className="flex flex-col items-center p-4 border border-ion-blue rounded-lg">
                         <Zap size={48} />
-                        <span className="mt-2">Applause</span>
+                        <span className="mt-2">Papri</span>
                     </button>
                 </div>
                 <p className="text-center text-gray-400 mb-4">"Don't worry, you can always choose to deploy to the other stores later."</p>
