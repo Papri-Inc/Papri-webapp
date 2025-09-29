@@ -10,7 +10,7 @@ const PrivacyPolicyPage = () => {
                 <p><strong>Last Updated:</strong> July 16, 2025</p>
 
                 <h2>1. Introduction</h2>
-                <p>Welcome to Applaude ("we," "our," or "us"). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services (the "Services").</p>
+                <p>Welcome to Papri ("we," "our," or "us"). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services (the "Services").</p>
 
                 <h2>2. Information We Collect</h2>
                 <p>We may collect information about you in a variety of ways. The information we may collect includes:</p>
@@ -46,9 +46,8 @@ const PrivacyPolicyPage = () => {
                 <p>You have the right to review, change, or terminate your account at any time. If you wish to do so, please contact us using the contact information provided below.</p>
 
                 <h2>7. Contact Us</h2>
-                <p>If you have questions or comments about this Privacy Policy, please contact us at: <a href="mailto:privacy@applaude.ai">privacy@applaude.ai</a></p>
+                <p>If you have questions or comments about this Privacy Policy, please contact us at: <a href="mailto:privacy@papri.cloud">privacy@papri.cloud</a></p>
             </main>
-            {/* <Footer /> */}
         </div>
     );
 };
