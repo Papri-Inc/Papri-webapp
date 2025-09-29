@@ -15,7 +15,7 @@ const initializePayment = async (
     project_id: projectId,
     plan_type: planType,
     currency: currency,
-    deployment_option: 'APPLAUSE' // Example, this should be dynamic
+    deployment_option: 'PAPRI' // Example, this should be dynamic
   });
   return response.data;
 };
