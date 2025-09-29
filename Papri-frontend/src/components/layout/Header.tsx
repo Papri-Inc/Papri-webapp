@@ -44,7 +44,7 @@ const Header: React.FC = () => {
             <nav className="container mx-auto px-4 lg:px-6 py-3 flex justify-between items-center">
                 <Link to="/" className="flex flex-row items-center justify-center text-2xl font-bold text-gray-800">
                     <img src="/logo_icon.png" alt="Logo" className="w-12 h-12" />
-                    <p className="hidden md:block">Applaude</p>
+                    <p className="hidden md:block">Papri</p>
                 </Link>
                 <div className="flex items-center border border-blue-800 border-2 pl-3 rounded-l-full rounded-r-full space-x-2 md:space-x-4">
                     <Link to="/" className="font-bold text-sm md:text-base text-gray-800 hover:text-gray-900">{t('home')}</Link>
