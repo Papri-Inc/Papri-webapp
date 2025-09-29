@@ -30,7 +30,7 @@ fetch("https://api.applaude.com/v1/projects", { headers })
 
     return (
         <div className="container mx-auto p-4 md:p-8">
-            <h1 className="text-4xl font-bold mb-6 text-center">Applaude API</h1>
+            <h1 className="text-4xl font-bold mb-6 text-center">Papri API</h1>
             <p className="text-lg text-gray-600 text-center mb-10">
                 Integrate your applications with our powerful API to automate your workflow.
             </p>
