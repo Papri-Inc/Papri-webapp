@@ -35,7 +35,7 @@ const PaymentModal: React.FC<PaymentModalProps> = ({ isOpen, onClose, projectId 
                 } catch (error) {
                     console.error("Failed to fetch localized pricing", error);
                     // Fallback to USD
-                    setPricing({ currency: 'USD', prices: { ONETIME: '50.00', MONTHLY: '15.00', YEARLY: '150.00' } });
+                    setPricing({ currency: 'USD', prices: { ONETIME: '47.00', MONTHLY: '24.99.00', YEARLY: '199.00' } });
                 } finally {
                     setLoading(false);
                 }
