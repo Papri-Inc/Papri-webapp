@@ -15,7 +15,7 @@ const DataPrivacyPage = () => {
         const url = window.URL.createObjectURL(new Blob([response.data]));
         const link = document.createElement('a');
         link.href = url;
-        link.setAttribute('download', 'applaude_user_data.csv');
+        link.setAttribute('download', 'papri_user_data.csv');
         document.body.appendChild(link);
         link.click();
     };
