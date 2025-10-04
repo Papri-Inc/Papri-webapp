@@ -1,5 +1,5 @@
 // import React from "react";
-import lauraImage from "@/assets/images/laura_nyaaga.jpg";
+import lauraImage from "@/assets/images/laura.jpeg";
 import mugambiImage from "@/assets/images/mugambi_john_ndeke.jpg";
 
 const AboutUs = () => {
@@ -11,7 +11,7 @@ const AboutUs = () => {
     },
     {
       name: "Laura Nyaga",
-      image: "lauraImage",
+      image: lauraImage,
       role: "Co-Founder & CTO",
     },
   ];
